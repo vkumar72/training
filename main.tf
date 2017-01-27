@@ -20,6 +20,8 @@
 
 ###### CHANGE No. 1
 
+###### CHANGE No. 2
+
 variable "aws_access_key" {
   type    = "string"
   default = "AKIAJCP4JQU5RVLYSJEA"
