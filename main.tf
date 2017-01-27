@@ -34,7 +34,7 @@ variable "aws_region" {
 }
 
 variable "count" {
-  default = "2"
+  default = "1"
 }
 
 output "public_dns" {
