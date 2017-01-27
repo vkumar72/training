@@ -56,7 +56,7 @@ resource "aws_instance" "web" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-ddd57685"
   vpc_security_group_ids = ["sg-29ef374e"]
-  count                  = "${var.count}"
+  count                  = "3"
 
   tags {
     Identity    = "autodesk-bird"
