@@ -62,6 +62,6 @@ resource "aws_instance" "web" {
     Identity    = "autodesk-bird"
     Environment = "Dev"
     Product     = "myproduct"
-    Name        = "web ${count.index + 1}/${var.count}"
+    Name        = "web ${count.index + 1}/${var.count}"}
   }
 }
